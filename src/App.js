@@ -1,11 +1,11 @@
-import './App.css';
+import { Component } from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      My app
-    </div>
-  );
+import './app.styles.scss'
+
+class App extends Component {
+  render() {
+    return <div class='app'>YO !</div>
+  }
 }
 
-export default App;
+export default App
